@@ -10,5 +10,7 @@ The default position for the resizing cursor is west to east in [WPF DataGrid](h
 this.dataGrid.ColumnResizingController.ResizingCursor = Cursors.SizeNS;
 ```
 
+KB article - [How to change the column resizing cursor position in WPF DataGrid(SfDataGrid)?](https://www.syncfusion.com/kb/11356/how-to-change-the-column-resizing-cursor-position-in-wpf-datagrid-sfdatagrid)
+
 ## Requirements to run the demo
 Visual Studio 2015 and above versions
