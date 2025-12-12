@@ -1,16 +1,17 @@
-# How to change the column resizing cursor position in WPF DataGrid(SfDataGrid)?
+# How to Change the Column Resizing Cursor Position in WPF DataGrid?
 
-## About the sample
+This example illustrates how to change the column resizing cursor position in [WPF DataGrid](https://www.syncfusion.com/wpf-controls/datagrid) (SfDataGrid).
 
-This example illustrates how to change the column resizing cursor position in [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid).
-
-The default position for the resizing cursor is west to east in [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid). If you want to change the flow direction of SfDataGrid, you need to change the resizing cursor by using [SfDataGrid.ColumnResizingController.ResizingCursor](https://help.syncfusion.com/cr/cref_files/windowsforms/Syncfusion.SfDataGrid.WinForms~Syncfusion.WinForms.DataGrid.Interactivity.ColumnResizingController~ResizingCursor.html).
+The default position for the resizing cursor is west to east in `DataGrid`. If you want to change the flow direction of SfDataGrid, you need to change the resizing cursor by using [SfDataGrid.ColumnResizingController.ResizingCursor](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.GridColumnResizingController.html#Syncfusion_UI_Xaml_Grid_GridColumnResizingController_ResizingCursor).
 
 ```c#
 this.dataGrid.ColumnResizingController.ResizingCursor = Cursors.SizeNS;
 ```
 
-KB article - [How to change the column resizing cursor position in WPF DataGrid(SfDataGrid)?](https://www.syncfusion.com/kb/11356/how-to-change-the-column-resizing-cursor-position-in-wpf-datagrid-sfdatagrid)
+![DataGrid with modified column resizing cursor](DataGridWithColumnResizingCursor.png)
+
+Take a moment to peruse the [WPF DataGrid - Getting Started](https://help.syncfusion.com/wpf/datagrid/getting-started) documentation, where you can find about `DataGrid` with code examples.
 
 ## Requirements to run the demo
+
 Visual Studio 2015 and above versions
